@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.profile {
+  width: 30%;
+  padding: 40px;
+  border-right: 1px solid #ddd;
+}
+
+.content {
+  width: 70%;
+  padding: 40px;
+}
+
+.content section {
+  min-height: 100vh;
+}

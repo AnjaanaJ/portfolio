@@ -17,6 +17,10 @@ body {
   width: 30%;
   padding: 40px;
   border-right: 1px solid #ddd;
+  position:sticky;
+    top:0;
+
+    height:100vh;
 }
 
 .content {
@@ -26,4 +30,28 @@ body {
 
 .content section {
   min-height: 100vh;
+   padding:40px 0;
+}
+.profile{
+    background:#f8fafc;
+}
+
+#about{
+    background:#ffffff;
+}
+
+#education{
+    background:#f8fafc;
+}
+
+#skills{
+    background:#ffffff;
+}
+
+#projects{
+    background:#f8fafc;
+}
+
+#contact{
+    background:#ffffff;
 }
